@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // URL del backend (en Docker: mismo host, puerto 8080; en local igual)
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const API_URL = import.meta.env.VITE_API_URL || "https://backend-express-latest-1.onrender.com";
 
 function App() {
   const [token, setToken] = useState(null);
